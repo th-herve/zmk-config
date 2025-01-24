@@ -11,6 +11,11 @@
 // mouse emulation
 #include <dt-bindings/zmk/pointing.h>
 
+// will prefere tap version of mod-tap key
+&mt {
+    flavor = "tap-preferred";
+};
+
 / {
         keymap {
                 compatible = "zmk,keymap";

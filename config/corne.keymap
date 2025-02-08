@@ -13,7 +13,7 @@
 
 // will prefere tap version of mod-tap key
 &mt {
-    flavor = "tap-preferred";
+    flavor = "balanced";
 };
 
 / {
